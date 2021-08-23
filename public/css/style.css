@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+body {
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.desktop-closed-message-avatar img {
+  width: 80% !important;
+  height: 80% !important;
+  margin-top: 6px;
+}
+
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
+.title {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #081419;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #081419;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: lighter;
+}
+
+.desc {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btn-read {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--blue);
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-read:hover {
+  color: #ffffff;
+  background-color: #2f55d4;
+}
+
+@media only screen and (max-width: 991px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    width: 100%;
+  }
+}
+
+/* header section start */
+.header_section {
+  width: 100%;
+  float: left;
+  background-image: url(../img/banner-bg1.png);
+  height: auto;
+  padding: 20px 0px;
+  background-size: 100%;
+}
+
+.header_bg {
+  background-image: url(../img/header-bg.png);
+  background-size: 100% 100%;
+}
+
+.nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+}
+
+.nav-link:hover {
+  color: var(--blue) !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header_section {
+    background-size: cover;
+  }
+}
+
+/* banner section start */
+.banner_section {
+  width: 100%;
+  float: left;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.banner_img {
+  width: 80%;
+}
+
+.banner_title {
+  width: 100%;
+  float: left;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-weight: bold;
+  color: #fef6fc;
+  line-height: 55px;
+  padding-top: 30px;
+}
+
+.banner_text {
+  width: 80%;
+  float: left;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fef6fc;
+  margin: 20px 0px 0px 0px;
+}
+
+.btn-contact {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--blue);
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-contact:hover {
+  color: var(--blue);
+  background-color: #ffffff;
+}
+
+#my_slider a.carousel-control-prev {
+  position: absolute;
+  left: -60px;
+  right: 0px;
+  top: 118%;
+}
+
+#my_slider a.carousel-control-next {
+  position: absolute;
+  left: 0px;
+  right: -60px;
+  top: 118%;
+}
+
+#my_slider .carousel-control-prev,
+#my_slider .carousel-control-next {
+  width: 55px;
+  height: 55px;
+  background: #ffffff;
+  opacity: 1;
+  font-size: 30px;
+  color: #000;
+  border-radius: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+  background: var(--blue);
+  color: #ffffff;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner_title {
+    width: 70%;
+    font-size: 34px;
+    line-height: 40px;
+    padding-top: 0px;
+  }
+  .banner_img {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner_title {
+    font-size: 40px;
+    padding-top: 0px;
+  }
+  .banner_img {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #my_slider a.carousel-control-prev,
+  #my_slider a.carousel-control-next {
+    top: 122%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #my_slider a.carousel-control-prev,
+  #my_slider a.carousel-control-next {
+    top: 112%;
+  }
+}
+
+/* rule section start */
+.rule_section {
+  width: 100%;
+  float: left;
+}
+
+.rule-item .image:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  transform: rotate(33.75deg);
+  background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.1));
+}
+
+.rule-item .content .info {
+  font-size: 16px;
+  color: #081419;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+/* symptoms section start */
+.symptoms_section {
+  width: 100%;
+  float: left;
+  padding: 90px 0px;
+}
+
+/* cause section start */
+.cause_section {
+  width: 100%;
+  float: right;
+  padding: 0px 0px;
+  text-align: right;
+}
+
+.cause_taital {
+  width: 60%;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151515;
+  padding-top: 30px;
+  font-family: "Poppins";
+}
+
+.cause_text {
+  width: 80%;
+  float: right;
+  font-size: 16px;
+  color: #151515;
+  margin: 0px;
+  font-family: "Poppins";
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 767px) {
+  .cause_section .desc {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+}
+
+/* news section start */
+.news_section {
+  width: 100%;
+  float: left;
+  padding: 90px 0px;
+}
+
+.news_section .blog {
+  font-family: "Poppins";
+}
+
+/* footer section start */
+.footer_section {
+  width: 100%;
+  float: left;
+  background-color: #202942;
+  color: #adb5bd;
+  height: auto;
+  margin-top: 60px;
+  font-family: "Poppins";
+}
+
+.useful_text {
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.footer_text {
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.footer_menu li {
+  margin-bottom: 10px;
+}
+
+.footer_menu li a {
+  font-size: 14px;
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer_menu li a:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  border-top: 1px solid #283353;
+  padding: 30px 0;
+}
