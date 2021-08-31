@@ -21,3 +21,11 @@ Route::get('/botman/tinker', 'BotManController@tinker');
 Route::get('/widget', function () {
     return view('widget');
 });
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/detail', function () {
+    return view('detail');
+});

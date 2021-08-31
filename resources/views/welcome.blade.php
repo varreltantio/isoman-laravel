@@ -29,7 +29,7 @@
                         <a class="nav-link text-white" href="#">Home</a>
                         <a class="nav-link text-white" href="#">Gejala</a>
                         <a class="nav-link text-white" href="#">Penyebab</a>
-                        <a class="nav-link text-white" href="#">berita</a>
+                        <a class="nav-link text-white" href="{{ URL::to('/blog') }}">berita</a>
                     </div>
                 </div>
             </nav>
@@ -198,13 +198,13 @@
                             <img src="{{ asset('img/news.jpg') }}" class="card-img-top rounded-top" alt="news covid-19">
                         </div>
                         <div class="card-body content">
-                            <h5><a href="#" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
+                            <h5><a href="{{ URL::to('/detail') }}" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
                             <div class="post-meta d-flex justify-content-between mt-3">
                                 <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item me-2 mb-0"><a href="#" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
-                                    <li class="list-inline-item"><a href="#" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
+                                    <li class="list-inline-item me-2 mb-0"><a href="{{ URL::to('/detail') }}" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
+                                    <li class="list-inline-item"><a href="{{ URL::to('/detail') }}" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
                                 </ul>
-                                <a href="#" class="text-muted readmore">Read More</a>
+                                <a href="{{ URL::to('/detail') }}" class="text-muted readmore">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -216,13 +216,13 @@
                             <img src="{{ asset('img/news.jpg') }}" class="card-img-top rounded-top" alt="news covid-19">
                         </div>
                         <div class="card-body content">
-                            <h5><a href="#" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
+                            <h5><a href="{{ URL::to('/detail') }}" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
                             <div class="post-meta d-flex justify-content-between mt-3">
                                 <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item me-2 mb-0"><a href="#" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
-                                    <li class="list-inline-item"><a href="#" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
+                                    <li class="list-inline-item me-2 mb-0"><a href="{{ URL::to('/detail') }}" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
+                                    <li class="list-inline-item"><a href="{{ URL::to('/detail') }}" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
                                 </ul>
-                                <a href="#" class="text-muted readmore">Read More</a>
+                                <a href="{{ URL::to('/detail') }}" class="text-muted readmore">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -234,13 +234,13 @@
                             <img src="{{ asset('img/news.jpg') }}" class="card-img-top rounded-top" alt="news covid-19">
                         </div>
                         <div class="card-body content">
-                            <h5><a href="#" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
+                            <h5><a href="{{ URL::to('/detail') }}" class="card-title text-dark">Berita COVID-19 Terbaru</a></h5>
                             <div class="post-meta d-flex justify-content-between mt-3">
                                 <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item me-2 mb-0"><a href="#" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
-                                    <li class="list-inline-item"><a href="#" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
+                                    <li class="list-inline-item me-2 mb-0"><a href="{{ URL::to('/detail') }}" class="text-muted like"><i class="far fa-heart"></i> 33</a></li>
+                                    <li class="list-inline-item"><a href="{{ URL::to('/detail') }}" class="text-muted comments"><i class="far fa-comment"></i> 08</a></li>
                                 </ul>
-                                <a href="#" class="text-muted readmore">Read More</a>
+                                <a href="{{ URL::to('/detail') }}" class="text-muted readmore">Read More</a>
                             </div>
                         </div>
                     </div>

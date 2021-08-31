@@ -357,3 +357,131 @@ img {
   border-top: 1px solid #283353;
   padding: 30px 0;
 }
+
+/* Blog Navbar */
+.blog-navbar .nav-link:hover {
+  color: #cecece !important;
+}
+
+/* Blog Sidebar */
+.blog-sidebar .blog-title {
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.blog-sidebar .blog-title:before {
+  content: "";
+  border-bottom: 4px solid #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  transition: 0.5s;
+}
+
+.blog-sidebar .sidebar-container {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+.blog-sidebar .sidebar-container .sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-sidebar .sidebar-container .sidebar-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.blog-sidebar .sidebar-container .sidebar-list li a {
+  color: #000;
+  margin-left: 15px;
+  transition: all 0.4s;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.blog-sidebar .sidebar-container .sidebar-list li a:hover {
+  margin-left: 25px;
+}
+
+.blog-sidebar .sidebar-container .sidebar-list li a i {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.blog-sidebar .post-container {
+  margin-bottom: 20px;
+}
+
+.blog-sidebar .post-container .post-img {
+  width: 35%;
+  margin-right: 25px;
+}
+
+.blog-sidebar .post-container .post-img img {
+  border-radius: 4px;
+}
+
+.blog-sidebar .post-container .post-head {
+  color: #000;
+  transition: all 0.4s;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+.blog-sidebar .post-container .date {
+  color: #000;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 991px) {
+  .blog-sidebar {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dotted #dbdbdb;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+  .blog-sidebar .post-container {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .blog-sidebar .post-container .post-img {
+    margin-right: 15px;
+  }
+}
+
+/* Blog Detail */
+.blog-detail .blog-title {
+  font-size: 48px;
+  font-family: "Poppins";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog-detail .blog-description {
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  font-size: 18px;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+}
